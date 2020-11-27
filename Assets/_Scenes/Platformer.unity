@@ -1457,6 +1457,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &687063971 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2823366303605702845, guid: 440e569cdd9ea074889c5e56ef3b5d21, type: 3}
+  m_PrefabInstance: {fileID: 744390479411439063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7876e353476cd49b0d24ab151f2ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &717745441
 GameObject:
   m_ObjectHideFlags: 0
@@ -7495,6 +7506,9 @@ MonoBehaviour:
     m_Bits: 1280
   rampDirection: 0
   onRamp: 0
+  health: 0
+  lives: 0
+  healthBar: {fileID: 687063971}
 --- !u!61 &2013978530
 BoxCollider2D:
   m_ObjectHideFlags: 0
